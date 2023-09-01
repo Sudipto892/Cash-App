@@ -1,0 +1,84 @@
+/* Base styles for large screens */
+.navbox {
+  display: inline-block;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li {
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  padding: 1vmax;
+  cursor: pointer;
+}
+
+.navbar ul li:hover {
+  color: #1a1a1a;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 768px )  {
+  .menu-icon {
+    display: none; /* Hide by default on large screens */
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    margin-top: 1vmax;
+    margin-left: -50vmax;
+    transition: all 0.3s ease;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+
+  }
+  .nav-links.open {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #57595d;
+    margin-left: -60vmax;
+    
+  }
+
+  .bar.open:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .bar.open:nth-child(2) {
+    opacity: 0;
+  }
+
+  .bar.open:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .menu-icon {
+    display: flex; 
+  }
+
+  .navbar {
+    position: relative;
+  }
+
+  .navbar ul{
+    display: none;
+  }
+ 
+}
