@@ -1,0 +1,210 @@
+/* Base styles for large screens */
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Hero img {
+    width: 370px;
+    height: 453px;
+    margin-top: 144px;
+    margin-left: 5vmax;
+  }
+  
+  .Cash {
+    margin-top: -35vmax;
+  }
+  
+  .Cash h1 {
+    position: relative;
+    color: white;
+    font-size: 193px;
+    font-weight: 800;
+    line-height: 166px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    z-index: -1;
+  }
+  
+  .app {
+    margin-top: -17.5vmax;
+  }
+  
+  .app h1 {
+    color: white;
+    font-size: 193px;
+    font-weight: 800;
+    line-height: 166px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+  
+  .cube img {
+    width: 74px;
+    height: 73px;
+  }
+  
+  .cube {
+    position: relative;
+    margin-top: -49.5vmax;
+    margin-left: -65.5vmax;
+  }
+  
+  .dollar img {
+    position: relative;
+    width: 30px;
+    height: 44px;
+  }
+  
+  .dollar {
+    margin-top: -21vmax;
+    margin-left: -90vmax;
+  }
+  
+  .stairs img {
+    position: relative;
+    width: 200px;
+    height: 260px;
+  }
+  
+  .stairs {
+    width: 100px;
+    margin-left: 48vmax;
+    margin-top: -8.9vmax;
+  }
+  
+  .cube2 img {
+    position: relative;
+    width: 188px;
+    height: 176px;
+  }
+  
+  .cube2 {
+    margin-left: -65.5vmax;
+    margin-top: 3vmax;
+  }
+  
+  .Pilar img {
+    position: relative;
+    width: 280px;
+    height: 329px;
+  }
+  
+  .Pilar {
+    margin-top: -23vmax;
+    margin-left: 30vmax;
+  }
+  
+  .EYE img {
+    position: relative;
+    width: 64px;
+    height: 36px;
+  }
+  
+  .EYE {
+    margin-top: -62.5vmax;
+    margin-left: 75vmax;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .Hero img {
+      width: 300px;
+      height: 353px;
+      margin-top: 144px;
+      margin-left: -50vmax;
+    }
+    .Cash {
+      margin-top: -58vmax;
+      margin-left: -57vmax;
+    }
+    
+    .Cash h1 {
+      position: relative;
+      color: white;
+      font-size: 130px;
+      font-weight: 800;
+      line-height: 166px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      z-index: -1;
+    }
+    .app {
+      margin-top: -32vmax;
+      margin-left: -57vmax;
+    }
+    
+    .app h1 {
+      color: white;
+      font-size: 130px;
+      font-weight: 800;
+      line-height: 166px;
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+    .cube img {
+      width: 74px;
+      height: 73px;
+    }
+    
+    .cube {
+      position: relative;
+      margin-top: -90vmax;
+      margin-left: -40vmax;
+    }
+    .dollar img {
+      position: relative;
+      width: 30px;
+      height: 44px;
+    }
+    
+    .dollar {
+      margin-top: -40vmax;
+      margin-left: 35vmax;
+    }
+    .stairs img {
+      position: relative;
+      width: 200px;
+      height: 260px;
+    }
+    
+    .stairs {
+      width: 100px;
+      margin-left: 40vmax;
+      margin-top: 36vmax;
+    }
+    .cube2 img {
+      position: relative;
+      width: 188px;
+      height: 176px;
+    }
+    
+    .cube2 {
+      margin-left: -47vmax;
+      margin-top: -40vmax;
+    }
+    .Pilar img {
+      position: relative;
+      width: 280px;
+      height: 329px;
+    }
+    
+    .Pilar {
+      margin-top: -23vmax;
+      margin-left: 25vmax;
+    }
+    .EYE img {
+      display: none;
+      position: relative;
+      width: 64px;
+      height: 36px;
+    }
+    
+    .EYE {
+      display: none;
+      margin-top: -62.5vmax;
+      margin-left: 75vmax;
+    }
+  }
