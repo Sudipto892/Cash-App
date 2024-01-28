@@ -5,9 +5,9 @@
 
 - Here are some of the features of Cash App:
 
--Send and receive money with friends and family
--Deposit your paycheck or tax refund
--Buy and sell Bitcoin
--Invest in stocks
--Get a free debit card
--Get paid early with direct deposit
+- Send and receive money with friends and family
+- Deposit your paycheck or tax refund
+- Buy and sell Bitcoin
+- Invest in stocks
+- Get a free debit card
+- Get paid early with direct deposit
